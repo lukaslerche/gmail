@@ -1,0 +1,12 @@
+header {
+  -webkit-app-region: drag;
+}
+
+header button, header form, header a {
+  -webkit-app-region: no-drag;
+}
+
+header > :nth-child(2) > :first-child {
+  padding-right: 0px;
+  padding-left: 60px;
+}

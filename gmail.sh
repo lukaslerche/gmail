@@ -1,0 +1,1 @@
+pnpm dlx nativefier https://mail.google.com -n Gmail --darwin-dark-mode-support --titleBarStyle hiddenInset --counter --honest --single-instance --icon gmail-mac.png --inject gmail.css --disable-dev-tools --internal-urls "(?:mail|contacts|calendar)\.google\.com" --strict-internal-urls
